@@ -1,0 +1,14 @@
+programa {
+funcao inicio() {
+
+real raio
+real area
+escreva("Qual o valor do raio do seu círculo?.. ")
+leia(raio)
+escreva("\n")
+
+area = raio * raio * 3.14
+escreva("* Área do quadrado: ", area, "cm²")
+
+}
+}
