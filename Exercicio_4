@@ -1,0 +1,23 @@
+programa {
+funcao inicio() {
+   
+inteiro valor
+inteiro metros = 0
+
+escreva("Escolha a quantidade de metros.. ")
+leia(valor)
+
+enquanto(valor >= 100) {
+valor = valor - 100
+metros++
+}
+
+se(valor == 0) {
+escreva("Seu valor possui ", metros, "m")
+}
+
+senao se(valor > 0) {
+escreva("Seu valor possui ", metros, ",", valor, "m")
+
+}
+}
