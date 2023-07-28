@@ -1,0 +1,29 @@
+programa {
+funcao inicio() {
+
+inteiro nota1
+inteiro nota2
+inteiro nota3
+inteiro nota4
+inteiro media
+
+escreva("Qual foi sua nota no 1º bimestre:  ")
+leia(nota1)
+escreva("Qual foi sua nota no 2º bimestre:  ")
+leia(nota2)
+escreva("Qual foi sua nota no 3º bimestre:  ")
+leia(nota3)
+escreva("Qual foi sua nota no 4º bimestre:  ")
+leia(nota4)
+
+media = (nota1 + nota2 + nota3 + nota4) / 4
+se(media >= 6) {
+escreva("Sua média bimestral foi ", media, ", você está na média, aprovado..")
+}
+
+senao se(media < 6) {
+escreva("Sua média bimestral foi ", media, ", você não está na média, reprovado..")
+}
+
+}
+}
