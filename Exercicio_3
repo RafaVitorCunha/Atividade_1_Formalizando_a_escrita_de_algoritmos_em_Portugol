@@ -1,0 +1,10 @@
+programa {
+funcao inicio() {
+	
+cadeia mae = "Tess"
+cadeia filha = "Anna"
+
+escreva("Após comerem um biscoito da sorte enfeitiçado em um restaurante chinês, a ", mae, " troca de corpo com a ", filha, " e, a ", filha, " troca de corpo com a ", mae)
+	
+}
+}
