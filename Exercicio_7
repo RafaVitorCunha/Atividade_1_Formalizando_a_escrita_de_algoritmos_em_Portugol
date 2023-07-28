@@ -1,0 +1,44 @@
+A)
+
+programa {
+funcao inicio() {
+
+//1 Dólar americano igual a 4,75 Real brasileiro
+
+const real dolar_preal = 4,75
+real preco_PS = 1300
+real quantia
+
+preco_PS = preco_PS * dolar_preal
+
+escreva("Informe sua quantia de dinheiro.. ")
+leia(quantia)
+preco_PS = preco_PS - quantia
+
+se(quantia < preco_PS) {
+escreva("Você não possui dinheiro suficiente, restam ", preco_PS, " dólares.")
+}
+  
+}
+} 
+
+B)
+
+programa {
+funcao inicio() {
+
+//1 Dólar americano igual a 4,75 Real brasileiro
+
+real preco_PS = 1,300
+real quantia
+
+escreva("Informe sua quantia de dinheiro.. ")
+leia(quantia)
+preco_PS = preco_PS - quantia
+
+se(quantia < preco_PS) {
+escreva("Você não possui dinheiro suficiente, restam ", preco_PS, " reais.")
+}
+  
+}
+}
