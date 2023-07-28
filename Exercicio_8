@@ -1,0 +1,31 @@
+programa {
+funcao inicio() {
+
+inteiro peso_de_peixes
+inteiro excesso
+real multa 
+
+escreva("* Quantos quilos de peixe você possui?.. ")
+leia(peso_de_peixes)
+escreva("\n")
+
+se(peso_de_peixes > 50){
+multa = 4.5
+excesso = peso_de_peixes - 50
+multa = multa * excesso
+
+escreva("* Quantidade de peixe pescado: ", peso_de_peixes, "\n")
+escreva("* Quantidade de peixes fora do limite \n")
+escreva("* Multa a ser paga: R$", multa, "\n")
+}
+
+senao se(peso_de_peixes <= 50) {
+multa = 0.00
+
+escreva("* Quantidade de peixe pescado: ", peso_de_peixes, "\n")
+escreva("* Quantidade de peixes dentro do limite \n")
+escreva("* Multa a ser paga: R$", multa, "\n")
+}
+
+}
+}
