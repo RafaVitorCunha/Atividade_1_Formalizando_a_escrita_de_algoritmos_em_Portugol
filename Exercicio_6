@@ -1,0 +1,16 @@
+programa {
+funcao inicio() {
+    
+real comprimento = 110
+real largura = 75
+real area = comprimento * largura
+
+
+escreva("* Comprimento: ", comprimento, "m \n")
+escreva("* Largura: ", largura, "m \n")
+escreva("* Área: ", area, "m² \n")
+escreva("* Dobro da área: ", area * 2, "m² \n")
+escreva("* Dobro da área em centímetros: ", area * 100, "c² \n")
+
+}
+}
